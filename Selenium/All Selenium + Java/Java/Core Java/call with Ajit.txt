@@ -1,0 +1,45 @@
+
+class person
+{
+
+void m1()
+{
+
+}
+
+String m1(int i)
+{
+
+}
+
+}
+
+person p = new emploeee();
+p.m1();
+p.m2();
+
+
+class employee extends person
+{
+
+void m1()
+{
+
+}
+
+void m2()
+{
+
+}
+
+}
+
+
+visility reduce and increase
+Exception overriding 
+interface allows method body as well. (defaut and static method)
+factory design pattern
+abstract factory
+interface holds child class's referance
+inner class and lambda expression 
+

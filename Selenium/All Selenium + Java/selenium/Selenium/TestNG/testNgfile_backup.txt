@@ -1,0 +1,18 @@
+<suite name="My suit">
+	<test name="My name">
+		<!-- <classes> <class name="p1.Test1" /> <methods> <include name = "m2"/> 
+			//execute m2 from test1 <include name = "m3"/> //execute m3 from test1 </methods> 
+			 <class name="p1.Test2"> </class> // end here too </classes> -->
+		<packages>
+			<package name="p1" />
+		</packages>
+
+		<groups>
+			<run>
+				<include name="Regression" />
+				<include name="Sanity" />
+			</run>
+		</groups>
+
+	</test>
+</suite>
