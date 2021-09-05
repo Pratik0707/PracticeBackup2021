@@ -19,7 +19,7 @@
 #*** IMP : we can mention @ anotation here for entire feature as well
 Feature: Check single input field
 
-  @Regression
+   @Regression @smoke
   Scenario: Check Enter message text box
     Given I am on home page
     When I click on Input form dorpdown
