@@ -8,3 +8,5 @@ Feature: Check single checkbox field
     And I select CheckBox demo option
     And I click on Click on this check box
     Then I can see a Success message
+    
+    

@@ -12,5 +12,4 @@ Feature: To check Login functionality
       | username | password |
       | pp       |    12345 |
       | tt       |    12345 |
-      | Demo2    |    12345 |
-    
+      | Demo2    |    12345 |    

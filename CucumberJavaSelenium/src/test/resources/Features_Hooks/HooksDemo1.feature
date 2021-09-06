@@ -6,7 +6,7 @@ Feature: Test 1
   And user enters Pwd
   Then user logs in
 
-@smoke
+tags={"@smoke and @regression"} # can also be like: tags={"(@smoke or @regression) and not @integration"}
   Scenario: To verify hooks 2
   Given user at home page
   When user clicks on dropdown
