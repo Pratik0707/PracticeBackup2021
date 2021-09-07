@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Examples.Test2">
+      <class name="Examples.SoapXMLRequest">
         <methods>
-          <include name="testCase1"/>
+          <include name="validateSOAPXml"/>
         </methods>
-      </class> <!-- Examples.Test2 -->
+      </class> <!-- Examples.SoapXMLRequest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
