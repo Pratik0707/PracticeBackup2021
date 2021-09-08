@@ -16,6 +16,7 @@ public class exception {
 		catch(ArithmeticException e)
 		{
 			System.out.println("caught ArithmeticException");
+			System.out.println(e);
 		}		
 		catch (NullPointerException n)
 		{
@@ -41,6 +42,7 @@ class demo1
 		catch(Exception e)
 		{
 			System.out.println("Can't divide ");
+			System.out.println(e);
 		}
 		finally
 		{
@@ -62,10 +64,7 @@ class demo2
 		int e = q/w;
 		System.out.println("Divisionresult : "+e);
 	}
-
-
 }
-
 
 
 

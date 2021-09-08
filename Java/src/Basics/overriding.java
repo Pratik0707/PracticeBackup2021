@@ -30,3 +30,24 @@ class b extends a
 		System.out.println("in ma of class B");
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

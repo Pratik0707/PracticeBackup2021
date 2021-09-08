@@ -10,6 +10,8 @@ public class inHeritance {
 		int b = 20;
 		int z = a+b;
 		child1 obj = new child1();
+		inHeritance it = new child1(); // parent's refereance and child's object
+		inHeritance it1 = new grandChild1(); //parent's ref. and child's obj
 		obj.method1();
 		obj.method2();
 		grandChild1 ob = new grandChild1();
