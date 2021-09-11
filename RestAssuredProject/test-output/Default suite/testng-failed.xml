@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Examples.SoapXMLRequest">
+      <class name="EndToEnd.PlaceIdVerify">
         <methods>
-          <include name="validateSOAPXml"/>
+          <include name="endtend"/>
         </methods>
-      </class> <!-- Examples.SoapXMLRequest -->
+      </class> <!-- EndToEnd.PlaceIdVerify -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
