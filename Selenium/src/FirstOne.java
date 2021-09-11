@@ -11,7 +11,7 @@ import org.testng.asserts.SoftAssert;
 
 public class FirstOne {
 
-	@Test(groups = "pp", dependsOnGroups= {"aa","bb"}, alwaysRun = true, priority=2)
+	@Test(groups = "pp", dependsOnGroups= {"aa","bb"}, alwaysRun = true, priprity=2)
 	public static void main(String[] args) {
 		System.setProperty("webdriver.chrome.driver", "C:\\Pratik 2020\\Userstories\\Selenium\\setup\\chromedriver.exe");
 		WebDriver dr = new ChromeDriver();
