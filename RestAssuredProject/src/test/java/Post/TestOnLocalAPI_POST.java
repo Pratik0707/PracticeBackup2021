@@ -1,4 +1,4 @@
-package Examples;
+package Post;
 import org.json.simple.JSONObject;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -12,7 +12,8 @@ public class TestOnLocalAPI_POST {
 
 	@Test
 	public void PostReq()
-	{
+	{ // In post > we can directly use put to add new values in json or we can directly give json code in body() method
+		// Here we are using PUT, in other test case we have used direct JSON body
 		JSONObject jsn = new JSONObject();
 		jsn.put("id", "4");
 		jsn.put("name", "Pratik");
