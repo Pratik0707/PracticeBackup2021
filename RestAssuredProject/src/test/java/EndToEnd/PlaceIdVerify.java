@@ -21,7 +21,7 @@ public class PlaceIdVerify {
 		//address is present in response (also verify that old address not present in response)
 		RestAssured.baseURI = "https://rahulshettyacademy.com"; //we get it in API contract document.
 // 1. Here 1st we will add(POST) a place
-		String response = // stroring entire response as a string
+		String response = // storing entire response as a string
 				given()
 				.log().all()// to get a log of all request activities we use this
 				.queryParam("key", "qaclick123")// we get it in PI contract document, it will be apended at end of base URL to form a final target URL
@@ -55,7 +55,7 @@ public class PlaceIdVerify {
 		JsonPath js = new JsonPath(response);// class use to parse json response string we captured. it will convert string to JSON
 		String placeId = js.get("place_id");// use jsonpathfinde to find a path of a node. here it will return a string value available for place_id field in JSON
 
-		System.out.println("place id : "+placeId);
+		System.out.println("place id- : "+placeId);
 		
 		// 2. Now we will update(PUT) place
 		

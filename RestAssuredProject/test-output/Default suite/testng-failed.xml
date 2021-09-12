@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="EndToEnd.PlaceIdVerify">
+      <class name="Examples.ReadJSONfromExternalFile">
         <methods>
-          <include name="endtend"/>
+          <include name="param"/>
         </methods>
-      </class> <!-- EndToEnd.PlaceIdVerify -->
+      </class> <!-- Examples.ReadJSONfromExternalFile -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
