@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Jira.AddComment">
+      <class name="SerializePOJO.SerializeEx">
         <methods>
-          <include name="add"/>
+          <include name="ser"/>
         </methods>
-      </class> <!-- Jira.AddComment -->
+      </class> <!-- SerializePOJO.SerializeEx -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

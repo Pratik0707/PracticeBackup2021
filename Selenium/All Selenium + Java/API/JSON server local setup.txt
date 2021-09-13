@@ -1,0 +1,9 @@
+https://github.com/typicode/json-server
+
+To install : 
+1. npm install -g json-server
+it gives URL like this : http://localhost:3000/ after installation
+
+To start after installation
+2. json-server --watch db.json
+
