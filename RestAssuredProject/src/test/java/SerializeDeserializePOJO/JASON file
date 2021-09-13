@@ -1,0 +1,59 @@
+
+JSON file used here : 
+
+{
+	"instructor": "RahulShetty",
+	"url": "rahulshettyacademy.com",
+	"services": "projectSupport",
+	"expertise": "Automation",
+	"courses": {
+		"webAutomation": [
+			{
+				"courseTitle": "Selenium Webdriver Java",
+				"Price": "50"
+			},
+			{
+				"courseTitle": "cyprus",
+				"Price": "40"
+			},
+			{
+				"courseTitle": "Protractor",
+				"Price": "40"
+			}
+		],
+		"api": [
+			{
+				"courseTitle": "Rest",
+				"Price": "40"
+			},
+			{
+				"courseTitle": "SoapUI",
+				"Price": "40"
+			}
+		],
+		"mobile": [
+			{
+				"courseTitle": "mobile auto",
+				"Price": "50"
+			}
+		]
+	},
+	"linkedin": "https://url.com"
+}
+
+// It looks like this : 
+
+
+	instructor:	RahulShetty
+	url:rahulshettyacademy.com
+	services:projectSupport
+	expertise:Automation
+	courses:
+		▶webAutomation:
+		▶api:
+		▶mobile:
+	linkedin:https://url.com
+
+// herer are total 6 fields and it is nested JSON where COURSES is a json inside the main json here. courses is a mini json
+
+

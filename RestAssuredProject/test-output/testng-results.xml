@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-09-11T22:25:25 IST" name="Default suite" finished-at="2021-09-11T22:25:30 IST" duration-ms="4237">
+  <suite started-at="2021-09-12T16:18:05 IST" name="Default suite" finished-at="2021-09-12T16:18:11 IST" duration-ms="6344">
     <groups>
     </groups>
-    <test started-at="2021-09-11T22:25:25 IST" name="Default test" finished-at="2021-09-11T22:25:30 IST" duration-ms="4237">
-      <class name="Examples.ReadJSONfromExternalFile">
-        <test-method signature="param()[pri:0, instance:Examples.ReadJSONfromExternalFile@62230c58]" started-at="2021-09-11T22:25:25 IST" name="param" finished-at="2021-09-11T22:25:30 IST" duration-ms="4187" status="PASS">
+    <test started-at="2021-09-12T16:18:05 IST" name="Default test" finished-at="2021-09-12T16:18:11 IST" duration-ms="6344">
+      <class name="Jira.AddComment">
+        <test-method signature="add()[pri:0, instance:Jira.AddComment@378542de]" started-at="2021-09-12T16:18:05 IST" name="add" finished-at="2021-09-12T16:18:11 IST" duration-ms="6245" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- param -->
-      </class> <!-- Examples.ReadJSONfromExternalFile -->
+        </test-method> <!-- add -->
+      </class> <!-- Jira.AddComment -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
