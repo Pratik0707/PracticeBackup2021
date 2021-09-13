@@ -23,7 +23,7 @@ public class SpecBuilder_Response {
 	public void specRes()
 	{
 	ResponseSpecification resspec = new ResponseSpecBuilder().expectStatusCode(200).expectContentType(ContentType.JSON).build();
-		// start from here
+		// start from here .
 
 
 	}
