@@ -19,13 +19,46 @@ import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
 public class SpecBuilder_Response {
-
+	@Test
 	public void specRes()
 	{
-	ResponseSpecification resspec = new ResponseSpecBuilder().expectStatusCode(200).expectContentType(ContentType.JSON).build();
-		// start from here .
+		// Request : 
+		RequestSpecification req = new RequestSpecBuilder().setBaseUri("https://rahulshettyacademy.com")
+				.addQueryParam("key", "qaclick123")
+				.setContentType(ContentType.JSON)
+				.build();
 
+		// ********* Response ********* //
+		ResponseSpecification resspec = new ResponseSpecBuilder().expectStatusCode(200).expectContentType(ContentType.JSON).build();
+
+
+		Response rrs = 
+				given()
+				.spec(req)// we have used REQUEST-spec builder here
+				.body("{\r\n"
+						+ "  \"location\": {\r\n"
+						+ "    \"lat\": -38.383494,\r\n"
+						+ "    \"lng\": 33.427362\r\n"
+						+ "  },\r\n"
+						+ "  \"accuracy\": 50,\r\n"
+						+ "  \"name\": \"Frontline house\",\r\n"
+						+ "  \"phone_number\": \"(+91) 983 893 3937\",\r\n"
+						+ "  \"address\": \"29, side layout, cohen 09\",\r\n"
+						+ "  \"types\": [\r\n"
+						+ "    \"shoe park\",\r\n"
+						+ "    \"shop\"\r\n"
+						+ "  ],\r\n"
+						+ "  \"website\": \"http://google.com\",\r\n"
+						+ "  \"language\": \"French-IN\"\r\n"
+						+ "}\r\n"
+						+ "")
+				.when()
+				.post("/maps/api/place/add/json")
+				.then().spec(resspec)// we have used RESPONSE-spec builder here)
+				.extract().response();
+
+		String rs = rrs.asString(); //convert response to string
+		System.out.println(rs);
 
 	}
 }
-
