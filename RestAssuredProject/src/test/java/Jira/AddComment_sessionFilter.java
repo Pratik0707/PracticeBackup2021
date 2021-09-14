@@ -12,7 +12,7 @@ import io.restassured.RestAssured;
 // 1. Login to JIRA 
 // 2. Add comment in a bug
 // 3. Get() the same issue
-public class AddComment {
+public class AddComment_sessionFilter {
 	@Test
 	public void add()
 	{

@@ -1,17 +1,115 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-09-14T09:47:16 IST" name="Default suite" finished-at="2021-09-14T09:47:19 IST" duration-ms="2180">
+  <suite started-at="2021-09-14T15:18:55 IST" name="Default suite" finished-at="2021-09-14T15:19:04 IST" duration-ms="8392">
     <groups>
     </groups>
-    <test started-at="2021-09-14T09:47:16 IST" name="Default test" finished-at="2021-09-14T09:47:19 IST" duration-ms="2180">
-      <class name="SpecBuilderTest.SpecBuilder_Response">
-        <test-method signature="specRes()[pri:0, instance:SpecBuilderTest.SpecBuilder_Response@5acf93bb]" started-at="2021-09-14T09:47:16 IST" name="specRes" finished-at="2021-09-14T09:47:19 IST" duration-ms="2144" status="PASS">
+    <test started-at="2021-09-14T15:18:55 IST" name="Default test" finished-at="2021-09-14T15:19:04 IST" duration-ms="8392">
+      <class name="Examples.DeleteReq">
+        <test-method signature="del()[pri:0, instance:Examples.DeleteReq@5acf93bb]" started-at="2021-09-14T15:18:55 IST" name="del" finished-at="2021-09-14T15:19:04 IST" duration-ms="8276" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Expected header "Content-Type" was not "application/json", was "application/json;charset=UTF-8". Headers are:
+Date=Tue, 14 Sep 2021 09:49:08 GMT
+Server=Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=POST
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length=15
+Keep-Alive=timeout=5, max=100
+Connection=Keep-Alive
+Content-Type=application/json;charset=UTF-8
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected header "Content-Type" was not "application/json", was "application/json;charset=UTF-8". Headers are:
+Date=Tue, 14 Sep 2021 09:49:08 GMT
+Server=Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=POST
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length=15
+Keep-Alive=timeout=5, max=100
+Connection=Keep-Alive
+Content-Type=application/json;charset=UTF-8
+
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:105)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+at io.restassured.internal.ResponseSpecificationImpl.header(ResponseSpecificationImpl.groovy:182)
+at io.restassured.specification.ResponseSpecification$header$2.callCurrent(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.header(ResponseSpecificationImpl.groovy:189)
+at io.restassured.internal.ValidatableResponseOptionsImpl.header(ValidatableResponseOptionsImpl.java:124)
+at io.restassured.internal.ValidatableResponseImpl.super$2$header(ValidatableResponseImpl.groovy)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)
+at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+at io.restassured.internal.ValidatableResponseImpl.header(ValidatableResponseImpl.groovy:184)
+at io.restassured.internal.ValidatableResponseImpl.header(ValidatableResponseImpl.groovy)
+at Examples.DeleteReq.del(DeleteReq.java:67)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- specRes -->
-      </class> <!-- SpecBuilderTest.SpecBuilder_Response -->
+        </test-method> <!-- del -->
+      </class> <!-- Examples.DeleteReq -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
