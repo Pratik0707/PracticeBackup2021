@@ -36,7 +36,6 @@ void m2()
 
 
 visility reduce and increase
-Exception overriding 
 interface allows method body as well. (defaut and static method)
 factory design pattern
 abstract factory
