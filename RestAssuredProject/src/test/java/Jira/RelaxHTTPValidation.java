@@ -65,7 +65,7 @@ public class RelaxHTTPValidation {
 				.extract().response().asString();
 
 		System.out.println(respn);// it will print entire huge JSON response. but I want to see just if my comment is added or not
-		// for that we use query parameter on line#61
+		// for that we use query parameter on line#61.. 
 
 
 	}
