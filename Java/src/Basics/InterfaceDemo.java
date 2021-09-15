@@ -8,14 +8,7 @@ public class InterfaceDemo {
 		obj.food();
 		obj.OwnMethod();
 		Animals a = new zoo();
-		//a.colour();
-		Animals a1 = new Animals()
-		{			
-			public void food() 
-			{
-				System.out.println("main -> food");
-			}
-		}
+		Animals.StaticOfInterface(); // call interface's static  method		
 	}
 }
 
@@ -23,7 +16,10 @@ interface Animals
 {
 	abstract public void food();
 	int q = 0;
-	//void colour();
+	static void StaticOfInterface() // static method in interface
+	{
+		System.out.println("static method in an interface is allowed ");
+	}
 }
 
 interface Animals2

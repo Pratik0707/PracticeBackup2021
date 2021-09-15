@@ -21,7 +21,7 @@ public class PlaceIdVerify {
 		//address is present in response (also verify that old address not present in response)
 		RestAssured.baseURI = "https://rahulshettyacademy.com"; //we get it in API contract document.
 		// 1. Here 1st we will add(POST) a place
-		String response = // storing entire response as a string
+		String response = // storing entire response as a string //
 				given()
 				.log().all()// to get a log of all request activities we use this
 				.queryParam("key", "qaclick123")// we get it in PI contract document, it will be apended at end of base URL to form a final target URL

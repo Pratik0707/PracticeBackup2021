@@ -3,6 +3,7 @@ package Basics;
 public class inHeritance {
 
 	int c;
+	int inHeritanceVar=55;
 	public static void main(String[] args) 
 	{
 		System.out.println("in Inheritance");
@@ -30,7 +31,8 @@ class child1 extends inHeritance
 {
 	void method2()
 	{
-		System.out.println("method2 : "+c);
+		int method2Var=11;
+		System.out.println("method2 : "+c+" accessing parent class variable "+inHeritanceVar);
 	}
 }
 
@@ -38,6 +40,8 @@ class grandChild1 extends child1
 {
 	void method3()
 	{
+		String method3Var="Hii";
 		System.out.println("method 3 : "+c);
+		System.out.println("grand parent class variable access "+inHeritanceVar);
 	}
 }

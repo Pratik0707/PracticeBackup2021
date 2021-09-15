@@ -20,5 +20,7 @@ public class Snippet {
 		import io.restassured.response.Response;
 		import io.restassured.specification.RequestSpecification;
 	}
+
+	In Gherkin language, scenario outline is the keyword which is used to run the same scenario multiple times.
 }
 
