@@ -26,3 +26,26 @@ Selenium :
 2. your framework and your role in that.
 3. selenium grid
 4. 
+
+
+
+
+
+
+
+Rest assured : 
+1. jwt token
+
+
+
+
+
+
+
+
+
+
+
+
+
+
