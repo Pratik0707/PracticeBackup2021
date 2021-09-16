@@ -16,7 +16,8 @@ JAVA :
 json simple library?
 runtime json kaise update karna he?
 15. git questions
-16. 
+16. .equal VS ==
+
 
 
 
@@ -25,7 +26,8 @@ Selenium :
 1. What is ne win selenium latest version 4?
 2. your framework and your role in that.
 3. selenium grid
-4. 
+4. page object model
+5. page factory
 
 
 
@@ -35,6 +37,7 @@ Selenium :
 
 Rest assured : 
 1. jwt token
+2. OAuth and version differences
 
 
 
@@ -42,6 +45,7 @@ Rest assured :
 
 
 
+Maven life cycle
 
 
 

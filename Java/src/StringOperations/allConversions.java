@@ -8,9 +8,9 @@ public class allConversions {
 		System.out.println("Enter a string : ");
 		Scanner sc = new Scanner(System.in);
 		String old = sc.nextLine();
-		// String to Char`
+		// String to Char
 		char[]cc=old.toCharArray();
-		//String to Char` - fetch single char from string 
+		//String to Char - fetch single char from string 
 		char a = old.charAt(6);
 		System.out.println(a);
 		//fetch single char from string as a string

@@ -29,7 +29,9 @@ public class SpecBuilder_Response {
 				.build();
 
 		// ********* Response ********* //
-		ResponseSpecification resspec = new ResponseSpecBuilder().expectStatusCode(200).expectContentType(ContentType.JSON).build();
+		ResponseSpecification resspec = new ResponseSpecBuilder()
+				.expectStatusCode(200)
+				.expectContentType(ContentType.JSON).build();
 
 
 		Response rrs = 
