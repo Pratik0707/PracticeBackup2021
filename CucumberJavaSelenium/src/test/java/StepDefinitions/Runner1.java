@@ -9,8 +9,11 @@ import io.cucumber.junit.Cucumber;
 plugin = { "pretty", "html:target/HTMLreports",
 		"json:target/JSONReports/report.json",
 		"junit:target/JUNITReports/report.xml"}, 
-monochrome=true,tags="@Regression"
+monochrome=true,tags="@Regression or @smoke"
 		)
 public class Runner1 {
 
 }
+
+
+

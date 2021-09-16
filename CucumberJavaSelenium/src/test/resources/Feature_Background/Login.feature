@@ -1,5 +1,6 @@
 Feature: To check background functionality
 #background steps will be executed before every scenario execution
+#we can have single set of backgroud per feature file
 
   Background: 
     Given user at login page

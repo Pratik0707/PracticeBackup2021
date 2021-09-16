@@ -28,12 +28,13 @@ public class HooksDemo1Steps {
 		dr.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);		
 	}
 
-	@After("@smoke") // Runs after all scenarios available in this file. But if @smoke tag is mentioned, so this will run only for a scenario with @smoke tag 
+	@After("@smoke")  
+	//if @smoke tag is mentioned, so this will run only after a scenario with @smoke tag 
 	public void closeBrowser()
 	{
 		System.out.println("=== After ===");
 		dr.close();	
-		dr.quit();
+		dr.quit();    
 	}
 	
 	@After(value="@smoke", order =1)  
