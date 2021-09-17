@@ -28,6 +28,10 @@ Selenium :
 3. selenium grid
 4. page object model
 5. page factory
+6. in explicit wait, wait time is 15 seconds, then exactly when webdriver checks the condition? after 15 seconds? at 1st second or keeps on checking for 15 seconds.?
+7. cucumber> i want to run only a few steps of a scenario with data from Examples section, how to do that?
+8. what is data tgable in selenium?
+9. 
 
 
 
@@ -49,7 +53,10 @@ Maven life cycle
 
 
 
-
+Questions for Hiresh : 
+1. how did you do allure cofigure with framework?
+2. in case of failure what you do? how you re-run failed rest test cases?
+3. konty environments war run karto test? 
 
 
 
