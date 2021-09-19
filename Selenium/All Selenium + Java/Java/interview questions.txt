@@ -17,7 +17,8 @@ json simple library?
 runtime json kaise update karna he?
 15. git questions
 16. .equal VS ==
-
+17. Java solid principals
+18. 
 
 
 
@@ -31,10 +32,12 @@ Selenium :
 6. in explicit wait, wait time is 15 seconds, then exactly when webdriver checks the condition? after 15 seconds? at 1st second or keeps on checking for 15 seconds.?
 7. cucumber> i want to run only a few steps of a scenario with data from Examples section, how to do that?
 8. what is data tgable in selenium?
-9. 
+9. paralel execution in selenium
 
 
 
+PROGRAMS : 
+1. i/p : aabbccddab o/p : a2b2c2d2a1b1
 
 
 
@@ -42,6 +45,7 @@ Selenium :
 Rest assured : 
 1. jwt token
 2. OAuth and version differences
+4. codes and its meanings (404 = ?? etc.)
 
 
 
@@ -57,6 +61,6 @@ Questions for Hiresh :
 1. how did you do allure cofigure with framework?
 2. in case of failure what you do? how you re-run failed rest test cases?
 3. konty environments war run karto test? 
-
+4. rest assured payload / body kuteh store keliye framework madhe? n tyat parametarization kelay ka kontya json fields cha?
 
 

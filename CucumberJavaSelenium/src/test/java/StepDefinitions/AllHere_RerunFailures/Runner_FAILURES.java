@@ -1,17 +1,17 @@
-package StepDefinitions_Hooks;
+package StepDefinitions.AllHere_RerunFailures;
 import org.junit.runner.RunWith;
-import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
+import io.cucumber.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="src/test/resources/Features_Hooks", glue= {"StepDefinitions_Hooks"},
-plugin= {"pretty", "html:target/HTMLreports",
+@CucumberOptions(features="@target/failed_scenarios.txt", glue={"StepDefinitions.AllHere_RerunFailures"}, // mention path of failed txt file and mention the path in features with @
+//plugin={"pretty","json:target/JSONReports/report.json",
+plugin = { "pretty", "html:target/HTMLreports",
 		"json:target/JSONReports/report.json",
-		"rerun:target/failed_scenarios.txt", // It generates failed_scenarios.txt file for failed scenarion in target folder
-		"junit:target/JUNITReports/report.xml"},
+"junit:target/JUNITReports/report.xml"}, 
 monochrome=true
 		)
-public class Runner2 {
+public class Runner_FAILURES {
 
 }
 
@@ -28,3 +28,5 @@ public class Runner2 {
 //		
 //		//tags = {"@all"}			
 //		)
+
+

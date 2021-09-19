@@ -1,17 +1,18 @@
-package StepDefinitions_Hooks;
+package Parallel_Execution;
 import org.junit.runner.RunWith;
-import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
+import io.cucumber.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="src/test/resources/Features_Hooks", glue= {"StepDefinitions_Hooks"},
-plugin= {"pretty", "html:target/HTMLreports",
+@CucumberOptions(features="src/test/java/Parallel_Execution", glue={"Parallel_Execution"},
+//plugin={"pretty","json:target/JSONReports/report.json",
+plugin = { "pretty", "html:target/HTMLreports",
 		"json:target/JSONReports/report.json",
 		"rerun:target/failed_scenarios.txt", // It generates failed_scenarios.txt file for failed scenarion in target folder
-		"junit:target/JUNITReports/report.xml"},
+"junit:target/JUNITReports/report.xml"}, 
 monochrome=true
 		)
-public class Runner2 {
+public class Runner1p {
 
 }
 
@@ -28,3 +29,5 @@ public class Runner2 {
 //		
 //		//tags = {"@all"}			
 //		)
+
+

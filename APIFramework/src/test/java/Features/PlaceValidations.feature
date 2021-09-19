@@ -12,4 +12,4 @@ Feature: Validating place APIs
     Examples: 
       | name     | language | address |
       | Pratik   | English  | Pune    |
-      | Kaivalya | Marathi  | G.Nagar |
+      | Kaivalya | Marathi  | GNagar |
