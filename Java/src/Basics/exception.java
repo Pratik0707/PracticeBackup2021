@@ -27,7 +27,7 @@ public class exception {
 
 class demo1
 {
-	void divide()
+	void divide() throws ArithmeticException
 	{
 		System.out.println("Enter a number 1 : ");
 		Scanner sc = new Scanner(System.in);

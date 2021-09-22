@@ -1,10 +1,10 @@
-package Parallel_Execution;
+package DataTable;
 import org.junit.runner.RunWith;
 import io.cucumber.junit.CucumberOptions;
 import io.cucumber.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="src/test/java/Parallel_Execution", glue={"Parallel_Execution"},
+@CucumberOptions(features="src/test/java/DataTable", glue={"DataTable"},
 //plugin={"pretty","json:target/JSONReports/report.json",
 plugin = { "pretty", "html:target/HTMLreports",
 		"json:target/JSONReports/report.json",
