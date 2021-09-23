@@ -33,6 +33,9 @@ Selenium :
 7. cucumber> i want to run only a few steps of a scenario with data from Examples section, how to do that?
 8. what is data tgable in selenium?
 9. paralel execution in selenium
+10. Robot class
+11. What is exactly use of Junit in selenium framework? what it does?
+
 
 
 
@@ -51,6 +54,7 @@ Rest assured :
 4. codes and its meanings (404 = ?? etc.)
 authenticatiion in rest assured
 PATCH request
+5. difference between oauth 1.0 and 2.0 ?
 
 post and put which is idempotemt?*** IMP 
 
