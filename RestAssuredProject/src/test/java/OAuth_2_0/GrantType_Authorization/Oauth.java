@@ -1,4 +1,4 @@
-package OAuth_2_0;
+package OAuth_2_0.GrantType_Authorization;
 
 import static io.restassured.RestAssured.given;
 import static io.restassured.RestAssured.given;
@@ -41,13 +41,14 @@ public class Oauth {
 		Thread.sleep(3000);
 		driver.findElement(By.cssSelector("input[type='email']")).sendKeys("srinath19830@gmail.com");
 		driver.findElement(By.cssSelector("input[type='email']")).sendKeys(Keys.ENTER);
-		Thread.sleep(3000);
+		String url = driver.getCurrentUrl();
 		String url ="https://rahulshettyacademy.com/getCourse.php?state=verifyfjdss&code=4%2FuwHwSwjuJWi4OqB4h1aPxFt25B92HCYT_cMwllKg5VmXASkJ7Wczma4OkW53xxhwNSE3QyM4wgvOkYS1DNnAHos&scope=email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=1&session_state=dc2d5c1602dcfa5f73882f98510761055ee744e7..8dd9&prompt=none#";
 		String partialcode=url.split("code=")[1]; // split URL to get CODE
 		String code=partialcode.split("&scope")[0];// Final CODE
 
 
-		String accessTokenResponse=	given().urlEncodingEnabled(false)// CODE possess special characters, Rest assured performs Encoding operation on special characters. If we use urlEncodingEnabled(false) then it will not decode values from our CODE
+		String accessTokenResponse=	
+		given().urlEncodingEnabled(false)// CODE possess special characters, Rest assured performs Encoding operation on special characters. If we use urlEncodingEnabled(false) then it will not decode values from our CODE
 		.queryParams("code",code)
 		.queryParams("client_id","692183103107-p0m7ent2hk7suguv4vq22hjcfhcr43pj.apps.googleusercontent.com")
 		.queryParams("client_secret","erZOWM9g3UtwNRj340YYaK_W")
@@ -63,14 +64,19 @@ public class Oauth {
 		.when()
 		.get("https://rahulshettyacademy.com/getCourse.php")
 		.asString();
+		
+		// In case of NON-POJO, use below code to verify response body fields
+		JsonPath jp = new JsonPath(getResp);
+		String capturedAdd = jp.getString("address");
+		System.out.println(capturedAdd);// we captured the JSON response of GET and we got here the address
+		Assert.assertEquals(capturedAdd, ExpectedAddress);//we are aserting whether actual and expected address are same
 	
 		// once the authentication automation is successful, we can use the code like below 
 		// to further verify the response body fields.
-
-		System.out.println(gc.getLinkedIn());
+		// In case of ## pojo, verify like this
+		System.out.println(gc.getLinkedIn()); 
 		System.out.println(gc.getInstructor());
 		System.out.println(gc.getCourses().getApi().get(1).getCourseTitle());
-
 
 		List<Api> apiCourses=gc.getCourses().getApi();
 		for(int i=0;i<apiCourses.size();i++)
@@ -94,13 +100,9 @@ public class Oauth {
 
 		List<String> expectedList=	Arrays.asList(courseTitles);
 
-		Assert.assertTrue(a.equals(expectedList));
-
-
+		Assert.assertTrue(a.equals(expectedList))
 	}
-
 }
-
 }
 
 
