@@ -24,7 +24,7 @@ public class AddComment_sessionFilter {
 		.header("Content-Type", "application/json")
 		.body("{ \"username\": \"Pratik.toke07\", \"password\": \"Admin@123\" }")
 		.log().all()
-		.filter(ss)// use it after Body so that the same logged in session will be continue and it can be used in multipl tests. So login once and use the same session id everywhere
+		.filter(ss)// use it after Body so that the same logged in session will be continue and it can be used in multiple tests. So login once and use the same session id everywhere
 		.when()
 		.post("/rest/auth/1/session")
 		.then()
@@ -39,7 +39,7 @@ public class AddComment_sessionFilter {
 		//Add comment in Bug
 		given()
 		.pathParam("key","10001")// key of issue for which comment needs to be added and use this variable below
-		.header("Content-Type","application/json")//.header("Cookie",sessionId) no need of this now since we are maintening session by session object
+		.header("Content-Type","application/json")//.header("Cookie",sessionId) no need of this now since we are maintaining session by session object
 		.body("{\r\n"
 				+ "    \"body\": \"My comment 132.\",\r\n"
 				+ "    \"visibility\": {\r\n"

@@ -52,38 +52,41 @@ public class TestPOJO1 {
 		// POJO CODE : --->
 
 		//storing response into object of GetCourse class where our getter and setter is available
-		GetCourse gc=given().queryParam("access_token", accessToken).expect().defaultParser(Parser.JSON)//we are telling that the response will be JSON so parse it as a JSON
+		GetCourse gc=given()
+				.queryParam("access_token", accessToken)
+				.expect().defaultParser(Parser.JSON)//we are telling that the response will be JSON so parse it as a JSON
 				.when()
-				.get("https://rahulshettyacademy.com/getCourse.php").as(GetCourse.class);//we earlier used as.string to convert to string, but now we are converting to object of GetCourse class
+				.get("https://rahulshettyacademy.com/getCourse.php")
+				.as(GetCourse.class);//we earlier used as.string to convert to string, but now we are converting to object of GetCourse class
 
 		System.out.println(gc.getLinkedin());// get linkedlist url from response body
 		System.out.println(gc.getInstructor()); // get instructor name from response body
 		System.out.println(gc.getCourses().getApi().get(1).getCourseTitle());// get 1st course title of api json
 
 
-		//		List<Api> apiCourses=gc.getCourses().getApi();
-		//		for(int i=0;i<apiCourses.size();i++)
-		//		{
-		//			if(apiCourses.get(i).getCourseTitle().equalsIgnoreCase("SoapUI Webservices testing"))
-		//			{
-		//				System.out.println(apiCourses.get(i).getPrice());
-		//			}
-		//		}
-		//
-		//		//Get the course names of WebAutomation
-		//		ArrayList<String> a= new ArrayList<String>();
-		//
-		//
-		//		List<pojo.WebAutomation> w=gc.getCourses().getWebAutomation();
-		//
-		//		for(int j=0;j<w.size();j++)
-		//		{
-		//			a.add(w.get(j).getCourseTitle());
-		//		}
-		//
-		//		List<String> expectedList=	Arrays.asList(courseTitles);
-		//
-		//		Assert.assertTrue(a.equals(expectedList));
+				List<Api> apiCourses=gc.getCourses().getApi();
+				for(int i=0;i<apiCourses.size();i++)
+				{
+					if(apiCourses.get(i).getCourseTitle().equalsIgnoreCase("SoapUI Webservices testing"))
+					{
+						System.out.println(apiCourses.get(i).getPrice());
+					}
+				}
+		
+				//Get the course names of WebAutomation
+				ArrayList<String> a= new ArrayList<String>();
+		
+		
+				List<pojo.WebAutomation> w=gc.getCourses().getWebAutomation();
+		
+				for(int j=0;j<w.size();j++)
+				{
+					a.add(w.get(j).getCourseTitle());
+				}
+		
+				List<String> expectedList=	Arrays.asList(courseTitles);
+		
+				Assert.assertTrue(a.equals(expectedList));
 
 
 

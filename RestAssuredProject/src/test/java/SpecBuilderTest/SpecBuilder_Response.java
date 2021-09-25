@@ -22,6 +22,7 @@ public class SpecBuilder_Response {
 	@Test
 	public void specRes()
 	{
+// Instead of writing a common part of request and response, we write it once & use anywhere we want. This is achieved with specbuilder.
 		// Request : 
 		RequestSpecification req = new RequestSpecBuilder().setBaseUri("https://rahulshettyacademy.com")
 				.addQueryParam("key", "qaclick123")

@@ -10,3 +10,4 @@ plugin={"json:target/JSONReports/report.json"}
 public class TestRunner {
 
 }
+ 
