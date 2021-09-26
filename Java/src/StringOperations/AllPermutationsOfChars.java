@@ -11,8 +11,8 @@ public class AllPermutationsOfChars {
 		for (String s : AllPermutationsOfChars.permute("abca"))
 		{
 			System.out.println(s);
-			String aa = "aa pp";
-			char[]pq = aa.toCharArray();
+//			String aa = "aa pp";
+//			char[]pq = aa.toCharArray();
 			
 		}
 	}

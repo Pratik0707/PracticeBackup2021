@@ -39,9 +39,9 @@ public class HighestOccuranceChar {
 			System.out.println(cr[n]+" - "+count); // print occurance count of every character
 			tm.put(cr[n], count);
 		}
-		for(Map.Entry<Character, Integer> ent : tm.entrySet()) // use treemap to return max and min occurances
-		{
-			System.out.println(ent.getKey()+" "+ent.getValue());
-		}				
+//		for(Map.Entry<Character, Integer> ent : tm.entrySet()) // use treemap to return max and min occurances
+//		{
+//			System.out.println(ent.getKey()+" "+ent.getValue());
+//		}				
 	}
 }
