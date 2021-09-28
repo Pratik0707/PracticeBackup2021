@@ -16,5 +16,9 @@ public class StringReplaceAll {
 		System.out.println();
 		String newss = ss.replaceAll(" " , ""); // 2nd easy way
 		System.out.println(newss);
+
+		String str1 = "Pratik";
+		String str2 = str1.replace("Pra", "HI"); // replaces Pra with HI
+		System.out.println("After replacement : "+str2);
 	}
 }

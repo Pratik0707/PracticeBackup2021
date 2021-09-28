@@ -41,8 +41,8 @@ public class LoginSteps {
 		List<List<String>> userList =dataTable.asList(String.class);
 		for (List<String> e : userList)
 		{		
-			dr.findElement(By.id("name")).sendKeys(username); 
-			dr.findElement(By.id("password")).sendKeys(password); 
+			dr.findElement(By.id("name")).sendKeys(e.get(0)); 
+			dr.findElement(By.id("password")).sendKeys(e.get(1)); 
 		}
 	}
 
