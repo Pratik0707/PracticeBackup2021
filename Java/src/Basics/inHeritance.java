@@ -17,8 +17,8 @@ public class inHeritance {
 		obj.method2();
 		grandChild1 ob = new grandChild1();
 		ob.method3();
-		ob.method2(); // multilevel inheritance
-		ob.method1(); // multilevel inheritance
+		ob.method2(); // multilevel inheritance > access parent's methods
+		ob.method1(); // multilevel inheritance > access grand parent's methods
 	}
 
 	public void method1()

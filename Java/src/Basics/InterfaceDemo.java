@@ -37,6 +37,13 @@ class zoo implements Animals, Animals2  // implement multiple interfaces
 	{
 		System.out.println("food for animals");
 	}
+	
+//	public int food()
+//	{
+//		int p =7;
+//		System.out.println("food for animals");
+//		return p;
+//	}
 
 	public void colour()
 	{

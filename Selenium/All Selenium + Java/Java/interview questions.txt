@@ -55,6 +55,8 @@ Rest assured :
 authenticatiion in rest assured
 PATCH request
 5. difference between oauth 1.0 and 2.0 ?
+6. If we get response, how to verfy all headers of response?
+7. How to convert response to List / any other collection? and fetch collection values to verify the data?
 
 post and put which is idempotemt?*** IMP 
 
