@@ -20,7 +20,7 @@ public class Anagram {
 
 	public static void main(String[] args) {
 
-		String str1 = "Keep";
+		String str1 = "Keep";		
 		String str2= "Peek";
 		String s1 = str1.replaceAll("\\s", "");  
 		String s2 = str2.replaceAll("\\s", "");  
