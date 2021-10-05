@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-10-02T19:32:06 IST" name="Default suite" finished-at="2021-10-02T19:32:13 IST" duration-ms="6785">
+  <suite started-at="2021-10-03T16:04:26 IST" name="Default suite" finished-at="2021-10-03T16:04:31 IST" duration-ms="5108">
     <groups>
     </groups>
-    <test started-at="2021-10-02T19:32:06 IST" name="Default test" finished-at="2021-10-02T19:32:13 IST" duration-ms="6785">
-      <class name="Examples.PostSample">
-        <test-method signature="postreq()[pri:0, instance:Examples.PostSample@5acf93bb]" started-at="2021-10-02T19:32:06 IST" name="postreq" finished-at="2021-10-02T19:32:13 IST" duration-ms="6720" status="PASS">
+    <test started-at="2021-10-03T16:04:26 IST" name="Default test" finished-at="2021-10-03T16:04:31 IST" duration-ms="5108">
+      <class name="HeaderValidate.HeaderFetch">
+        <test-method signature="getALlHeadersFromResponse()[pri:0, instance:HeaderValidate.HeaderFetch@5acf93bb]" started-at="2021-10-03T16:04:26 IST" name="getALlHeadersFromResponse" finished-at="2021-10-03T16:04:31 IST" duration-ms="5040" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- postreq -->
-      </class> <!-- Examples.PostSample -->
+        </test-method> <!-- getALlHeadersFromResponse -->
+      </class> <!-- HeaderValidate.HeaderFetch -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

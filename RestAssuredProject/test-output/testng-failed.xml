@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Examples.DeleteReq">
+      <class name="HeaderValidate.HeaderFetch">
         <methods>
-          <include name="del"/>
+          <include name="getALlHeadersFromResponse"/>
         </methods>
-      </class> <!-- Examples.DeleteReq -->
+      </class> <!-- HeaderValidate.HeaderFetch -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
