@@ -2,11 +2,16 @@ Feature: To check background functionality
 
   #background steps will be executed before every scenario execution
   #we can have single set of backgroud per feature file
+  # we can add data tables in background as below
   
   Background: 
     Given user at login page
     When user enters Uname
+      | Prt  |
+      | Usr2 |
     And user enters Pwd
+      | pwd1 |
+      | pwd2 |
     Then user logs in
 
   Scenario: to verify hooks 1

@@ -24,7 +24,7 @@ public class Hooks_StepDef {
 				
 	}
 
-	@After("@smoke")  
+	@After 
 	//if @smoke tag is mentioned, so this will run only after a scenario with @smoke tag 
 	public void closeBrowser()
 	{
@@ -34,20 +34,20 @@ public class Hooks_StepDef {
 	@After(value="@smoke", order =1)  
 	public void closeBrowser2()
 	{
-		System.out.println("=== After ===");
+		System.out.println("=== After >>>>> smoke ===");
 	}
 
-	@Before(order = 2) // we can have multiple before and after functions,it will be executed according to alphabetical order if order is not mentioned
-	public void testBefore()
-	{
-		System.out.println("2nd before-scenario");
-	}
-
-	@After(order = 1)// after : execution order 2 then 1, but for before it is 1 and then 2
-	public void testAfter()
-	{
-		System.out.println("2nd After-scenario");
-	}
+//	@Before(order = 2) // we can have multiple before and after functions,it will be executed according to alphabetical order if order is not mentioned
+//	public void testBefore()
+//	{
+//		System.out.println("2nd before-scenario");
+//	}
+//
+//	@After(order = 1)// after : execution order 2 then 1, but for before it is 1 and then 2
+//	public void testAfter()
+//	{
+//		System.out.println("2nd After-scenario");
+//	}
 
 	@BeforeStep // it will run before every step available in this file
 	public void beforeStep()

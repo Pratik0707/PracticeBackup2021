@@ -10,6 +10,7 @@ Scenario: to verify hooks 2
   When user hooks 2
   And user hook hooks 2
   
+  @smoke
 Scenario: to verify hooks 3
   Given user at hooks 3
   When user hooks 3
