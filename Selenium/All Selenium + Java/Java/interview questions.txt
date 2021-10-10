@@ -54,7 +54,7 @@ how thread works?
 
 
 Rest assured : 
-1. jwt token
+1. jwt token*
 2. OAuth and version differences
 4. codes and its meanings (404 = ?? etc.)
 authenticatiion in rest assured
@@ -65,8 +65,11 @@ PATCH request
 8. What is structure of HTTP? Uri + query param+ end point (This structure)
 9. Difference between URl and URI
 post and put which is idempotemt?*** IMP 
-
-
+10. How are the Userstories of RESt assured in ur company?
+11. What you do on a daily basis for restA.?
+12. Explain ur restA. framework.
+13. Schema validation. Whya and how? *** IMP 
+14. 
 
 
 

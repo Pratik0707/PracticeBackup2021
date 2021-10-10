@@ -3,7 +3,7 @@ Feature: To check background functionality
   #background steps will be executed before every scenario execution
   #we can have single set of backgroud per feature file
   # we can add data tables in background as below
-  
+
   Background: 
     Given user at login page
     When user enters Uname
@@ -21,3 +21,4 @@ Feature: To check background functionality
   Scenario: To verify hooks 2
     When user submits a form
     Then success message is displayed
+

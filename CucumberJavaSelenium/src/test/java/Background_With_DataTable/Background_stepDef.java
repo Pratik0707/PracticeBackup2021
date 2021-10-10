@@ -51,12 +51,8 @@ public class Background_stepDef {
 		System.out.println("Scenario 2 : 1. user submits a form");
 	}	
 
-	@Then("^success message is displayed$")
-	public void success_message_is_displayed() {
-		System.out.println("Scenario 2 : 2. success message is displayed");
-	}
-
-
-
+	@Then("^success message is displayed$") public void
+	success_message_is_displayed() {
+	System.out.println("Scenario 2 : 2. success message is displayed"); }
 
 }
