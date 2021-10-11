@@ -16,13 +16,13 @@ JAVA :
 json simple library?
 runtime json kaise update karna he?
 15. git questions
-16. .equal VS ==
+16. .equal VS ==*
 17. Java solid principals
 18. LAMBDA expression
 19. constructor > overloadin, overrideing, static constructor, privet constructor
 20. Override and overload static method
 21. can we override main?
-22. string pool? diff btwn string ss= "ssd";  and String pq = new String("sdsd");
+22. string pool? diff btwn string ss= "ssd";  and String pq = new String("sdsd");*
 
 
 https://leetcode.com/problems/longest-palindromic-substring/
