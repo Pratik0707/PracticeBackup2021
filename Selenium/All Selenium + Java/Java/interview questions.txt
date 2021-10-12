@@ -19,10 +19,16 @@ runtime json kaise update karna he?
 16. .equal VS ==*
 17. Java solid principals
 18. LAMBDA expression
-19. constructor > overloadin, overrideing, static constructor, privet constructor
-20. Override and overload static method
+19. constructor > overloadin, overrideing, static constructor, privet constructor*
+20. Override and overload static method*
 21. can we override main?
 22. string pool? diff btwn string ss= "ssd";  and String pq = new String("sdsd");*
+23. can we write multiple main methods in a class? 
+24. final method override ?
+25. can a class final? and why?
+26. why we write singoltone class?
+27. static block? mani nad execution sequence 
+28. 
 
 
 https://leetcode.com/problems/longest-palindromic-substring/
@@ -40,6 +46,8 @@ Selenium :
 10. Robot class
 11. What is exactly use of Junit in selenium framework? what it does?
 12. Cucumber > Can we use one example column at multiple places in same scenario
+
+
 
 
 
