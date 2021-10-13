@@ -24,10 +24,10 @@ runtime json kaise update karna he?
 21. can we override main?
 22. string pool? diff btwn string ss= "ssd";  and String pq = new String("sdsd");*
 23. can we write multiple main methods in a class? 
-24. final method override ?
-25. can a class final? and why?
-26. why we write singoltone class?
-27. static block? mani nad execution sequence 
+24. final method override?*
+25. can a class final? and why?*
+26. why we write singoltone class?*
+27. static block? main & execution sequence*
 28. 
 
 
