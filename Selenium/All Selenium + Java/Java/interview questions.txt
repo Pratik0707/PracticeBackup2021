@@ -10,7 +10,7 @@ JAVA :
 9. liniar search binary search
 10. Docker (selenium grid)
 11. Jenkins
-12. page object model
+12. page object model*
 13. Why use interface in actaul project
 14. .then, .when returns what ?? in restassured
 json simple library?
@@ -20,15 +20,15 @@ runtime json kaise update karna he?
 17. Java solid principals
 18. LAMBDA expression
 19. constructor > overloadin, overrideing, static constructor, privet constructor*
-20. Override and overload static method*
-21. can we override main?
+20. Override and overload static method *
+21. can we override main?*
 22. string pool? diff btwn string ss= "ssd";  and String pq = new String("sdsd");*
-23. can we write multiple main methods in a class? 
+23. can we write multiple main methods in a class?* No
 24. final method override?*
 25. can a class final? and why?*
 26. why we write singoltone class?*
 27. static block? main & execution sequence*
-28. 
+28.  Override and overload static method* : overloading allow, overriding called method hiding 
 
 
 https://leetcode.com/problems/longest-palindromic-substring/
