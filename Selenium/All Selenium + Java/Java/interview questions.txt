@@ -3,15 +3,15 @@ JAVA :
 2. interview questions on every oops
 3. can we have nested methods in java
 4. What is new features in Java 16?
-5. multithreading
-6. inner classes
+5. multithreading*
+6. inner classes*
 7. internal data structures (hashmap how it works internally)
 8. String programs
 9. liniar search binary search
 10. Docker (selenium grid)
 11. Jenkins
 12. page object model*
-13. Why use interface in actaul project
+13. Why use interface in actual project
 14. .then, .when returns what ?? in restassured
 json simple library?
 runtime json kaise update karna he?
@@ -34,7 +34,7 @@ runtime json kaise update karna he?
 https://leetcode.com/problems/longest-palindromic-substring/
 
 Selenium : 
-1. What is ne win selenium latest version 4?
+1. What is nawin in selenium latest version 4?
 2. your framework and your role in that.
 3. selenium grid
 4. page object model
