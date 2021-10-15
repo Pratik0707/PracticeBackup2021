@@ -17,7 +17,6 @@ public class Static {
 	static void demo1()
 	{
 		char r = 'p';
-
 	}
 
 	void nonStatic()
