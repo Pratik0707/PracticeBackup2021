@@ -41,7 +41,7 @@ Selenium :
 5. page factory
 6. in explicit wait, wait time is 15 seconds, then exactly when webdriver checks the condition? after 15 seconds? at 1st second or keeps on checking for 15 seconds.?
 7. cucumber> i want to run only a few steps of a scenario with data from Examples section, how to do that?
-8. what is data tgable in selenium?
+8. what is data table in selenium?
 9. paralel execution in selenium
 10. Robot class
 11. What is exactly use of Junit in selenium framework? what it does?

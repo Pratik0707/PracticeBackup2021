@@ -22,8 +22,8 @@ public class JsonSchemaValidator {
 		given()
 		.get("https://reqres.in/api/users?page=2")
 		.then()
-		.assertThat().body(matchesJsonSchemaInClasspath("Schema.json"))
+		.assertThat().body(matchesJsonSchemaInClasspath("Schema_.json"))
 		.statusCode(200);
-
 	}
 }
+
