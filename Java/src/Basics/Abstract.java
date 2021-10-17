@@ -16,6 +16,7 @@ abstract class animal
 	{
 		System.out.println("abstract class constructor");
 	}
+	
 	abstract void animalSound();
 
 	void animalFood()

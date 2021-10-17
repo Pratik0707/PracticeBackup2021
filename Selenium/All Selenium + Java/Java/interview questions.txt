@@ -29,6 +29,13 @@ runtime json kaise update karna he?
 26. why we write singoltone class?*
 27. static block? main & execution sequence*
 28.  Override and overload static method* : overloading allow, overriding called method hiding 
+29. covarient return type
+30. comparator comparable
+31. contract between equal and hashcode mehthod 
+32. default block, when it execute it?
+33. when default, static block executes? and when constructor executes ? execution sequence. 
+
+
 
 
 https://leetcode.com/problems/longest-palindromic-substring/

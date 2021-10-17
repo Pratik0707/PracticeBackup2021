@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="HeaderValidate.HeaderFetch">
+      <class name="Schema_Validation.JsonSchemaValidator">
         <methods>
-          <include name="getALlHeadersFromResponse"/>
+          <include name="schemaValidator"/>
         </methods>
-      </class> <!-- HeaderValidate.HeaderFetch -->
+      </class> <!-- Schema_Validation.JsonSchemaValidator -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
