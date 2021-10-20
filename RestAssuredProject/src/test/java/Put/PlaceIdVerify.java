@@ -1,4 +1,4 @@
-package EndToEnd;
+package Put;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
@@ -57,9 +57,9 @@ public class PlaceIdVerify {
 
 		System.out.println("place id- : "+placeId);
 
-		// 2. Now we will update(PUT) place
+		// 2. Now we will update(PUT) place  #################### PUT ######################
 
-		given()
+		given()  
 		.queryParam("key", "qaclick123")
 		.header("Content-Type", "application/json")
 		.body("{\r\n"
