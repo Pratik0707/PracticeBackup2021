@@ -27,12 +27,12 @@ public class SerializeEx {
 		p.setName("Test ser name");
 		p.setPhone_number("1321564456");
 		p.setWebsite("www.abc.com");
-		List<String> mylist = new ArrayList<>();
+		List<String> mylist = new ArrayList<>();// add elements as below to the list
 		mylist.add("first");
 		mylist.add("Second");
 		p.setTypes(mylist);
-		Location lc = new Location();
-		lc.setLat(89.35);
+		Location lc = new Location();// new class we created for location
+		lc.setLat(89.35); // values for location class
 		lc.setLng(9.55);
 		p.setLocation(lc);
 

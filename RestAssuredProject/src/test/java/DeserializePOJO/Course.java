@@ -4,7 +4,10 @@ import java.util.List;
 
 public class Course {
 
-	private List<WebAutomation> webAutomation;// list : since webautomation is array and declared as [], so it contains list of sub elements, hence need to take as a list. check json preety UI > u can see []. implies it is array and hence used List
+	private List<WebAutomation> webAutomation;// list : since webautomation is- 
+	//array and declared as [], so it contains list of sub elements, hence 
+	//need to take as a list. check json preety UI > u can see []. implies 
+	//it is array and hence used List
 	private List<Api> api;		
 	private List<Mobile> mobile;
 

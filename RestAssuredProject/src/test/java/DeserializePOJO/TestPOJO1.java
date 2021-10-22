@@ -63,7 +63,7 @@ public class TestPOJO1 {
 		System.out.println(gc.getInstructor()); // get instructor name from response body
 		System.out.println(gc.getCourses().getApi().get(1).getCourseTitle());// get 1st course title of api json
 
-
+//find price if the course title is : SoapUI Webservices testing
 				List<Api> apiCourses=gc.getCourses().getApi();
 				for(int i=0;i<apiCourses.size();i++)
 				{

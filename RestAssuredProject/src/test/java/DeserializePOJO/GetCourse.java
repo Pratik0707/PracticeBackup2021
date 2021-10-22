@@ -6,7 +6,9 @@ public class GetCourse {
 	private String url;
 	private String services;
 	private String expertise;
-	private Course courses;// we created a seperate class for mini json courses and the return type here is course. means it returns object of course class which posses mini json's fields
+	private Course courses;// we created a seperate class for mini 
+	//json courses and the return type here is course. means it 
+	//returns object of course class which posses mini json's fields
 	private String linkedin;
 
 	

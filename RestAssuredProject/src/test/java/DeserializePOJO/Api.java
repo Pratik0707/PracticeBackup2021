@@ -3,6 +3,8 @@ package DeserializePOJO;
 public class Api {
 
 	private String courseTitle;
+	private String Price;
+	
 	public String getCourseTitle() {
 		return courseTitle;
 	}
@@ -15,5 +17,5 @@ public class Api {
 	public void setPrice(String price) {
 		Price = price;
 	}
-	private String Price;
+	
 }
