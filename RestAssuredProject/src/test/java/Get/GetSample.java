@@ -27,6 +27,7 @@ public class GetSample {
 				.get("/maps/api/place/get/json")
 				.then()
 				.contentType(ContentType.JSON)
+				.header("Server", "Apache/2.4.18 (Ubuntu)")// response header verify
 				.body("accuracy", equalTo("50"))
 				.body("location.longitude", equalTo("33.427362"))
 				.assertThat()
@@ -37,3 +38,4 @@ public class GetSample {
 
 	}
 }
+

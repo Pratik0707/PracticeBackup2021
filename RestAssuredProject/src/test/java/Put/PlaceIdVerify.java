@@ -53,7 +53,7 @@ public class PlaceIdVerify {
 		System.out.println(response);//printing response JSON
 
 		JsonPath js = new JsonPath(response);// class use to parse json response string we captured. it will convert string to JSON
-		String placeId = js.get("place_id");// use jsonpathfinde to find a path of a node. here it will return a string value available for place_id field in JSON
+		String placeId = js.get("place_id");// use jsonpath to find a path of a node. here it will return a string value available for place_id field in JSON
 
 		System.out.println("place id- : "+placeId);
 
@@ -69,7 +69,11 @@ public class PlaceIdVerify {
 				+ "}\r\n"
 				+ "")
 		.when()
-		.put("/maps/api/place/update/json")		.then().assertThat().statusCode(200).body("msg", equalTo("Address successfully updated"));
+		.put("/maps/api/place/update/json")		
+		.then()
+		.assertThat()
+		.statusCode(200)
+		.body("msg", equalTo("Address successfully updated"));
 
 		// 3. Now we will fetch(GET) updated address and will verify whether address is really updated
 

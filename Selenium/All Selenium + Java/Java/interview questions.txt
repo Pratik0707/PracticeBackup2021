@@ -86,6 +86,22 @@ post and put which is idempotemt?*** IMP
 13. Schema validation. Whya and how? *** IMP 
 14. 
 
+//"firstName": "Amod",
+//"lastName": "Mahajan",
+//"address": [
+//  {
+//    "type": "permanent",
+//    "city": "Bengaluru",
+//    "state": "KA"
+//  },
+//  {
+//    "type": "temp",
+//    "city": "Bhopal",
+//    "state": "MP"
+//  }
+//]
+//} // print in POJO form the city of state MP
+
 
 
 Maven life cycle
