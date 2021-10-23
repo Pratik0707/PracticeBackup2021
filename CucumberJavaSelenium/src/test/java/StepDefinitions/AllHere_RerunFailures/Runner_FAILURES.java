@@ -4,7 +4,8 @@ import io.cucumber.junit.CucumberOptions;
 import io.cucumber.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="@target/failed_scenarios.txt", glue={"StepDefinitions.AllHere_RerunFailures"}, // mention path of failed txt file and mention the path in features with @
+@CucumberOptions(features="@target/failed_scenarios.txt", glue={"StepDefinitions.AllHere_RerunFailures"}, 
+//above, mention path of failed txt file(available under folder) and mention the path in features with @
 //plugin={"pretty","json:target/JSONReports/report.json",
 plugin = { "pretty", "html:target/HTMLreports",
 		"json:target/JSONReports/report.json",

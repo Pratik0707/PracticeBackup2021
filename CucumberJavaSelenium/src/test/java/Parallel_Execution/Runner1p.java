@@ -17,7 +17,8 @@ public class Runner1p {
 
 // *********** parallel execution ************* //
 
-// mention below code in pom.xml to run feature files parallely (features covered in mentioned runner class will run parallely)
+// mention below code in pom.xml to run feature files parallely 
+//(features covered in mentioned runner class will run parallely)
 
 //<build>
 //<plugins>
@@ -27,7 +28,8 @@ public class Runner1p {
 //		<version>3.0.0-M5</version>
 //		<configuration>
 //			<includes>
-//				<include>**/*Runner1p.java</include> // mention runner file u want to run parallely (features covered in this runner will run parallely)
+//				<include>**/*Runner1p.java</include> // mention runner file u want to run parallely 
+//													//(features covered in this runner will run parallely)
 //			</includes>
 //			<parallel>methods</parallel>
 //		<!-- 	<threadCount>2</threadCount> -->

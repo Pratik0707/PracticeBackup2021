@@ -83,9 +83,10 @@ post and put which is idempotemt?*** IMP
 10. How are the Userstories of RESt assured in ur company?
 11. What you do on a daily basis for restA.?
 12. Explain ur restA. framework.
-13. Schema validation. Whya and how? *** IMP 
+13. Schema validation. Whya and how? *** IMP *
 14. 
 
+//Employee JSON :-
 //"firstName": "Amod",
 //"lastName": "Mahajan",
 //"address": [
@@ -101,8 +102,12 @@ post and put which is idempotemt?*** IMP
 //  }
 //]
 //} // print in POJO form the city of state MP
+e.getEmployeeAddr().get(1).getState();
 
+gc.getCourses().getApi().get(1).getCourseTitle());
+apiCourses.get(i).getCourseTitle().equalsIgnoreCase("SoapUI Webservices testing")
 
+getEmployeeAddr().get(i).getState().equalIgnoreCase("MP")
 
 Maven life cycle
 
