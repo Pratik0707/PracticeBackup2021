@@ -1,7 +1,10 @@
 package Patterns;
 //WAP to print * pyramid
-public class pyramid {
-
+public class Pyramid_stars {
+//	*
+//	**
+//	***
+//	****
 	public static void main(String[] args) {
 		int rows = 5;
 		for(int i=0;i<5;i++)
@@ -14,3 +17,4 @@ public class pyramid {
 		}
 	}
 }
+//All pyramid patterns : https://www.programiz.com/java-programming/examples/pyramid-pattern

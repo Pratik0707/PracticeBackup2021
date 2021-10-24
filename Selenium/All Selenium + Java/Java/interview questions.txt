@@ -79,12 +79,12 @@ PATCH request
 7. How to convert response to List / any other collection? and fetch collection values to verify the data?
 8. What is structure of HTTP? Uri + query param+ end point (This structure)
 9. Difference between URl and URI
-post and put which is idempotemt?*** IMP 
+10. post and put which is idempotemt? *
 10. How are the Userstories of RESt assured in ur company?
 11. What you do on a daily basis for restA.?
 12. Explain ur restA. framework.
 13. Schema validation. Whya and how? *** IMP *
-14. 
+14. runtime json kaise update karna he?
 
 //Employee JSON :-
 //"firstName": "Amod",

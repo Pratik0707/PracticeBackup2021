@@ -8,8 +8,8 @@ import io.cucumber.junit.Cucumber;
 //plugin={"pretty","json:target/JSONReports/report.json",
 plugin = { "pretty", "html:target/HTMLreports",
 		"json:target/JSONReports/report.json",
-		"rerun:target/failed_scenarios.txt", // It generates failed_scenarios.txt file for failed scenarion in target folder
-"junit:target/JUNITReports/report.xml"}, 
+		"rerun:target/failed_scenarios.txt", // It generates failed_scenarios.txt-
+"junit:target/JUNITReports/report.xml"}, //-file for failed scenarios in target folder
 monochrome=true,tags="@Regression or @smoke"
 		)
 public class Runner1 {
