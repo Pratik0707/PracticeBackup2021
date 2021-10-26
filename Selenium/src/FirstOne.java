@@ -1,3 +1,5 @@
+import static org.testng.Assert.assertFalse;
+
 import java.util.List;
 
 import org.openqa.selenium.By;
@@ -6,6 +8,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
@@ -39,9 +42,22 @@ public class FirstOne {
 		act.sendKeys(Keys.CONTROL,"T");
 
 		String curWin = dr.getWindowHandle();
-
+Assert.assertEquals(null, null, 0);
+Assert.assertFalse(false);
+Assert.assertNotEquals(null, null)
+Assert.assertNotNull(act)
+Assert.assertSame(act, act)
+Assert.assertTrue(false)
 	}
 }
+
+
+
+
+
+
+
+
 
 
 
