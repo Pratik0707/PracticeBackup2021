@@ -23,5 +23,4 @@ public class Count_Of_All_Sub_Strings {
 		}
 		System.out.println(countMap);
 	}
-
 }

@@ -3,7 +3,7 @@ import java.util.ArrayList;
 //How do you remove a given character from String?
 import java.util.Scanner;
 //WAP to remove specific character from string
-public class RemoveCharacter {
+public class Remove_Character {
 
 	public static void main(String[] args) {
 		System.out.println("Enter a string : ");
