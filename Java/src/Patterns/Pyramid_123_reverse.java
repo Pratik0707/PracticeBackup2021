@@ -17,3 +17,5 @@ public class Pyramid_123_reverse {
 	}
 }
 //All pyramid patterns : https://www.programiz.com/java-programming/examples/pyramid-pattern
+//https://javaconceptoftheday.com/number-pattern-programs-in-java/
+//https://javahungry.blogspot.com/2017/09/25-different-number-pattern-programs-in-java.html

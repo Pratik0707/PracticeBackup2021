@@ -32,3 +32,5 @@ public class Pyramid_double_side {
 	}
 }
 //All pyramid patterns : https://www.programiz.com/java-programming/examples/pyramid-pattern
+//https://javaconceptoftheday.com/number-pattern-programs-in-java/
+//https://javahungry.blogspot.com/2017/09/25-different-number-pattern-programs-in-java.html

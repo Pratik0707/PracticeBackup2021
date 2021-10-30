@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class Form {
 
 	public static void main(String[] args) {
-		System.setProperty("webdriver.chrome.driver", "C:\\Pratik 2020\\\\Userstories\\\\Selenium\\\\setup\\\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Pratik 2020\\Personal\\selenium\\chromedriver.exe");
 		WebDriver dr = new ChromeDriver();
 		dr.manage().window().maximize();
 		dr.manage().timeouts().pageLoadTimeout(10,TimeUnit.SECONDS);

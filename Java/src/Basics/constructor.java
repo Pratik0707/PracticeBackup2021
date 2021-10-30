@@ -16,10 +16,10 @@ public class constructor {
 		int a;
 		char c;
 
-		test1() // non parametarized 
-		{
-			System.out.println("in NON-parametarized ");
-		}
+//		test1() // non parametarized 
+//		{
+//			System.out.println("in NON-parametarized ");
+//		}
 
 		test1(int i, char x)
 		{

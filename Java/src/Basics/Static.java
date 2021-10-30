@@ -6,8 +6,8 @@ public class Static {
 		// static int a=10; cann not have static variable inside static methood
 		demo1();// static, called without object
 		Static st = new Static();
-		st.demo1('p');// static method overloading
-		st.demo1(10);// static method overloading
+		demo1('p');// static method overloading // no need to use object to call STATIC methods, we can use object as well.
+		demo1(10);// static method overloading
 		st.nonStatic();// need object to call non static method
 		System.out.println(i);// access static variable directly
 		//	System.out.println(r);// cannot access non-static variable directly
