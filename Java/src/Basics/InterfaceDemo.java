@@ -8,7 +8,7 @@ public class InterfaceDemo {
 		obj.food();
 		obj.OwnMethod();
 		Animals a = new zoo();
-		Animals.StaticOfInterface(); // call interface's static  method		
+		Animals.StaticOfInterface(); // call interface's static  method	
 	}
 }
 

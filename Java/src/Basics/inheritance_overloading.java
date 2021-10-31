@@ -1,6 +1,6 @@
 package Basics;
 
-public class inHeritance {
+public class inheritance_overloading {
 
 	int c;
 	int inHeritanceVar=55;
@@ -11,8 +11,9 @@ public class inHeritance {
 		int b = 20;
 		int z = a+b;
 		child1 obj = new child1();
-		inHeritance it = new child1(); // parent's refereance and child's object
-		inHeritance it1 = new grandChild1(); //parent's ref. and child's obj
+		inheritance_overloading it = new child1(); // parent's reference and child's object
+		inheritance_overloading it1 = new grandChild1(); //parent's ref. and child's obj
+		it.method1();//parent class reference can't access child class members and methods. So here we can access only method1
 		obj.method1();
 		obj.method2();
 		grandChild1 ob = new grandChild1();
@@ -27,7 +28,7 @@ public class inHeritance {
 	}
 }
 
-class child1 extends inHeritance
+class child1 extends inheritance_overloading
 {
 	void method2()
 	{
