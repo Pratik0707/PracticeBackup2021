@@ -1,5 +1,5 @@
 package Basics;
-
+/// WAY 1 >>>> Extending Thread class
 public class thread {
 
 	public static void main(String[] args) {
@@ -31,7 +31,7 @@ class MyThread extends Thread // extend Thread to create a new thread
 
 }
 
-
+// WAY 2 >>>>>>  Thread by implemention Runnable interface 
 class myRunnable implements Runnable
 {
 	@Override
@@ -56,4 +56,21 @@ public class thread {
 		}		
 	}
 }
+
+O/P : for first program
+In main thread
+In main thread
+In main thread
+In main thread// Main thread executed
+Child Thread //Run method is running, we have not 
+Child Thread//called run methd explicitly, but start
+Child Thread//invokes run method and so Run written
+Child Thread//by us is executed
+Child Thread
+Child Thread
+Child Thread
+In main thread
+Child Thread
+Child Thread
+Child Thread
 

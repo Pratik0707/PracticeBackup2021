@@ -4,15 +4,20 @@ public class overriding {
 
 	public static void main(String[] args) 
 	{
-		a obj = new a();//object is of a, so a's method wil be called
+		parent obj = new parent();//object is of a, so a's method wil be called
 		obj.ma();
+		obj.localOfA();
 
-		a newobj = new b();//object is of b, so b's method wil be called
+		parent newobj = new Chilld();//object is of b, so b's method wil be called
 		newobj.ma();
+		newobj.localOfA();
+		
+	//	Chilld bsref = new parent();//child reference and parent object: This is NOT ALLOWED in java.
+		
 	}
 }
 
-class a
+class parent
 {
 	void ma()
 	{
@@ -21,13 +26,23 @@ class a
 		int sum = a+b;
 		System.out.println("in ma : "+sum);		
 	}
+	
+	void localOfA()
+	{
+		System.out.println("Local method of class A");
+	}
 }
 
-class b extends a
+class Chilld extends parent
 {	
 	void ma()
 	{
 		System.out.println("in ma of class B");
+	}
+	
+	void LoaclOfB()
+	{
+		System.out.println("in local method of class B");
 	}
 }
 

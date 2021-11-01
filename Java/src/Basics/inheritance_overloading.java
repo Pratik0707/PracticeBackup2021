@@ -14,6 +14,7 @@ public class inheritance_overloading {
 		inheritance_overloading it = new child1(); // parent's reference and child's object
 		inheritance_overloading it1 = new grandChild1(); //parent's ref. and child's obj
 		it.method1();//parent class reference can't access child class members and methods. So here we can access only method1
+		it1.method1();//Parent class object has access to only parent methods. parent class reference can't access child class members and methods;
 		obj.method1();
 		obj.method2();
 		grandChild1 ob = new grandChild1();
