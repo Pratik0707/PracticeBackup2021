@@ -31,8 +31,10 @@ public class tab_window {
 		System.out.println("switched to tab");
 		Thread.sleep(3000);
 		dr.switchTo().window(handel_curent);
-		
-		
+		System.out.println("1");
+	     Actions action = new Actions(dr);
+	     action.sendKeys(Keys.chord(Keys.CONTROL, "N")).build().perform();
+	 	System.out.println("2");
 		
 	}
 

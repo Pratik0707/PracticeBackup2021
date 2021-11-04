@@ -15,8 +15,9 @@ public class inheritance_overloading {
 		inheritance_overloading it1 = new grandChild1(); //parent's ref. and child's obj
 		it.method1();//parent class reference can't access child class members and methods. So here we can access only method1
 		it1.method1();//Parent class object has access to only parent methods. parent class reference can't access child class members and methods;
-		obj.method1();
+		obj.method1();//child class object has access to child + parent members(variables) and methods.
 		obj.method2();
+		System.out.println(obj.i +" "+obj.inHeritanceVar);
 		grandChild1 ob = new grandChild1();
 		ob.method3();
 		ob.method2(); // multilevel inheritance > access parent's methods
@@ -31,6 +32,7 @@ public class inheritance_overloading {
 
 class child1 extends inheritance_overloading
 {
+	int i=55;
 	void method2()
 	{
 		int method2Var=11;

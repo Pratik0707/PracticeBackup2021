@@ -34,9 +34,9 @@ public class Coun_Of_All_Chars {
 			System.out.println(cr[n]+" - "+count);
 		}
 
-		// easy way : 
+		// easy way 1 : 
 
-		String test1 = "test string";
+		String test1 = "test String";
 		char[] str2 = test1.toCharArray();
 		Map<String, Long> countMap = new HashMap<>(); 
 
@@ -52,6 +52,25 @@ public class Coun_Of_All_Chars {
 		}
 		System.out.println(countMap);
 
+		// easy way 2 : 
 
+		String input = "Hello this hi hello is hi";
+		HashMap<Character, Integer> cntMap= new HashMap<>();
+		String input2 = input.toLowerCase();// convert input to lower case so that output wont be case sensitive. Use this string for further operation
+		char[] strArray = input.toCharArray();
+
+		// checking each char of strArray
+		for (char c : strArray) {
+			if (cntMap.containsKey(c)) 
+			{				
+				cntMap.put(c, cntMap.get(c) + 1); // If char is present in charCountMap,incrementing it's count by 1
+			}
+			else 
+			{
+				cntMap.put(c, 1);// If char is not present in charCountMap,// putting this char to charCountMap with 1 as it's value
+			}
+		}
+		System.out.println(cntMap);// Printing the charCountMap
 	}
 }
+

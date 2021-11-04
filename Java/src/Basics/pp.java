@@ -31,7 +31,6 @@ static int v =0;
 		System.out.println(a==j);
 		System.out.println(a.equals(j));
 		
-		
 	}
 	public int ppr()
 	{

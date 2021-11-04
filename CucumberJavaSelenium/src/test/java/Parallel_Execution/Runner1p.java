@@ -20,6 +20,7 @@ public class Runner1p {
 // mention below code in pom.xml to run feature files parallely 
 //(features covered in mentioned runner class will run parallely)
 
+//IN pom.xml File>> 
 //<build>
 //<plugins>
 //	<plugin>

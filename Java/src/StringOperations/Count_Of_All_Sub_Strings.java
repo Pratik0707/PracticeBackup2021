@@ -22,6 +22,26 @@ public class Count_Of_All_Sub_Strings {
 			}
 		}
 		System.out.println(countMap);
+
+		// >>>> easy way 2 : 
+
+		String input = "Hello this hi hello is hi";
+		HashMap<String, Integer> cntMap= new HashMap<>();
+		String input2 = input.toLowerCase();// convert input to lower case so that output wont be case sensitive. Use this string for further operation
+		String[] strArray = input2.split(" ");
+
+		// checking each char of strArray
+		for (String c : strArray) {
+			if (cntMap.containsKey(c)) 
+			{				
+				cntMap.put(c, cntMap.get(c) + 1); // If char is present in charCountMap,incrementing it's count by 1
+			}
+			else 
+			{
+				cntMap.put(c, 1);// If char is not present in charCountMap,// putting this char to charCountMap with 1 as it's value
+			}
+		}
+		System.out.println(cntMap);// Printing the charCountMap
 	}
 }
 //string.valueOf() method converts different types of values into string. 

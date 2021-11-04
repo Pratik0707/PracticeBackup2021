@@ -13,4 +13,3 @@ tags={"@smoke and @regression"} # can also be like: tags={"(@smoke or @regressio
   And users opens a form
   Then user fills a form
   
-  

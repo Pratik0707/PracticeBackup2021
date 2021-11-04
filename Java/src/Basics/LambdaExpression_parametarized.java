@@ -42,3 +42,9 @@ interface Cabb //functional interface possess only one method
 //		System.out.println("booked cab");
 //	}
 //}
+
+
+
+
+
+
