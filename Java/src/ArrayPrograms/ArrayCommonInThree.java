@@ -1,8 +1,6 @@
 package ArrayPrograms;
-
 import java.util.Arrays;
-
-//WAP to find common elements in 3 arrays
+////WAP to find common elements in 3 arrays
 public class ArrayCommonInThree {
 
 	public static void main(String[] args) {

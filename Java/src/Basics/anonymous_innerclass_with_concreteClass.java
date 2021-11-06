@@ -20,7 +20,7 @@ public class anonymous_innerclass_with_concreteClass {
 }
 class concreteClass
 {
-	concreteClass()
+	concreteClass()//constructor
 	{
 		System.out.println("concreteClass constructor");
 	}

@@ -2,12 +2,13 @@ package Basics;
 public class innerClass {
 
 	public static void main(String[] args) {
-		outer or = new outer();
+		outer or = new outer();// outer class object creation
 		or.m1();//call outer class mthd with outer class obj
-//		or.inner_m2();we cant use outer obj to call inner class method/variable
-		outer.inner in = or.new inner();
+//		or.inner_m2();  >>> IMP we cant use outer obj to call inner class method/variable
+		outer.inner in = or.new inner();//inner class object creation
 		in.inner_m2();//call inner class mthd using inner class obj
-		
+//		in.m1();  >>> IMP we cant use inner class obj to call outer class mthd.
+//		System.out.println(in.i);//cant acces outer variable with inner object
 	}
 }
 class outer

@@ -12,12 +12,10 @@ public class Static_Block {
 		}
 		catch(Exception E)
 		{
-			
+
 		}
-		
-		
 	}
-	
+
 	static
 	{
 		System.out.println("static block2");
@@ -25,12 +23,13 @@ public class Static_Block {
 
 	public static void main(String[] args) {
 		System.out.println("In main");
-		
+	}
+
+	private static void add() {
+		// TODO Auto-generated method stub
 	}
 
 	private static void mmpp() {
 		// TODO Auto-generated method stub
-		
 	}
-
 }

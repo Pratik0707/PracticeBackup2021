@@ -6,15 +6,14 @@ public class Abstract {
 		obj.animalSound();//Way to access abstract class's non abstract methods
 		obj.animalColor();
 		obj.animalFood();
+		//if parent reference and child object created, then parent reference can not access child's local methods.
 	}
 }
 abstract class animal
 {	
 	animal()
 	{
-
 		System.out.println("abstract class constructor");
-
 	}	
 	abstract void animalSound();// Abstract method
 
@@ -34,8 +33,8 @@ class lion extends animal
 	{		
 		System.out.println("Roar");	
 	}
-
 	void animalColor()
-	{		System.out.println("Brown : Lion class method");	
+	{	
+		System.out.println("Brown : Lion class method");		
 	}
 }

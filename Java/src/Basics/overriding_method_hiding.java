@@ -1,22 +1,35 @@
 package Basics;
+
 public class overriding_method_hiding {
 
 	public static void main(String[] args) {
-		child.add(10, 5);//child class's add wil be called
-		overriding_method_hiding.add(2, 2);//overriding_method_hiding(i.e. parent) clas's method wil b called
-	}
+		Animl.foo(); // prints Animal
+		Cat.foo(); // prints Cat
 
+		Animl a = new Animl();
+		Animl b = new Cat();
+		Cat c = new Cat();
+		Animl d = null;
+
+		a.foo(); // should not be done. Prints Animal because the declared type of a is Animal
+		b.foo(); // should not be done. Prints Animal because the declared type of b is Animal// in non-static case, it would have printed Cat. Here hiding comes in picture.
+		c.foo(); // should not be done. Prints Cat because the declared type of c is Cat
+		d.foo(); // should not be done. Prints Animal because the declared type of d is Animal
+	}
 	static void add(int a, int b)
 	{
 		int f = a+b;
 		System.out.println("add of parent, Additipn of two nu,bers : "+f);
 	}
 }
-class child extends overriding_method_hiding
-{
-	static void add(int d, int e)
-	{
-		int f1 = d+e;
-		System.out.println("add of child, Additipn of two numbers : "+f1);
+class Animl {
+	public static void foo() {
+		System.out.println("Animal");
+	}
+}
+
+class Cat extends Animl {
+	public static void foo() {  // hides Animal.foo()
+		System.out.println("Cat");
 	}
 }

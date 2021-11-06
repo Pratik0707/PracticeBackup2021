@@ -1,13 +1,8 @@
 package Basics;
-
-import static io.restassured.RestAssured.given;
-
 import java.util.ArrayList;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
-import io.restassured.http.ContentType;
-
+//WAP to print only characters from given string. exclude everything other than characters.
 public class RegularExpression2 {
 
 	public static void main(String[] args) {
@@ -18,7 +13,7 @@ public class RegularExpression2 {
 		while(m.find())
 		{
 		System.out.println("what matched : "+m.group());//Returns the matched sequence captured
-		al.add(m.group());
+		al.add(m.group());// add in arraylist
 		}//group gives us the matched elements from string
 		System.out.println(al);
 		
