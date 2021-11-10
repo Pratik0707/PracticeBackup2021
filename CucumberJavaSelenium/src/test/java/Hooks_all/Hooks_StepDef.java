@@ -60,7 +60,7 @@ public class Hooks_StepDef {
 	{
 		System.out.println("Inside after step");
 	}
-
+// These below are step definitions for feature file.
 	@Given("^user at hooks 1$")
 	public void user_at_hooks_1()   {
 
