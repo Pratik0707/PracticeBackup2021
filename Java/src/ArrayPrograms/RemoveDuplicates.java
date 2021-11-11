@@ -22,7 +22,7 @@ public class RemoveDuplicates {
 			System.out.println(it.next());
 		}
 
-		ArrayList al = new ArrayList();    // WAY 2 : Use contains method
+		HashSet al = new HashSet();    // WAY 2 : Use contains method
 		for(int i : a)
 		{
 			if(!(al.contains(i)))

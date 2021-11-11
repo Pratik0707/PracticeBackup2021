@@ -30,7 +30,6 @@ public class Practice {
 		SoftAssert sf = new SoftAssert();
 		sf.assertTrue(dr.findElement(By.id("")).isDisplayed());
 		Actions act = new Actions(dr);
-		
 	}
 
 	@Test

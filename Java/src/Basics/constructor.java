@@ -7,7 +7,7 @@ public class constructor {
 		constructor obj = new constructor();
 	}
 
-	test1 object = new test1();
+	//test1 object = new test1();
 
 	test1 object2 = new test1(10, 'P');
 
