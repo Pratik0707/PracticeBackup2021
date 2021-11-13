@@ -21,7 +21,6 @@ public class LoginSteps {
 				dr.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
 				dr.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 				dr.get("https://example.testproject.io/web/");
-
 	}
 
 	@When("^I Enter a valid (.*)$") public void i_enter_a_valid_username(String username) 

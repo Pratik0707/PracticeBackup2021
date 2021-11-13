@@ -13,3 +13,17 @@ public class reverse_strimg {
 		}
 	}
 }
+
+// easy way : 
+
+//StringBuilder One = new StringBuilder(partOne);
+//StringBuilder Two = new StringBuilder(partTwo);
+//String output1 = One.reverse().toString();
+//String output2 = Two.reverse().toString();// reverse
+//String finalOutput = output1+" "+output2;
+//System.out.println("Reversed string : "+finalOutput);
+
+
+
+
+
