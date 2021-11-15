@@ -1,5 +1,9 @@
 package StringOperations;
 // WAP to reverse a string
+
+import java.util.Arrays;
+import java.util.Collections;
+
 public class reverse_strimg {
 
 	public static void main(String[] args) {
@@ -23,7 +27,11 @@ public class reverse_strimg {
 //String finalOutput = output1+" "+output2;
 //System.out.println("Reversed string : "+finalOutput);
 
+// Another way : 
 
+//String[] arrx = {"alpha", "beta", "gamma"};
+//Collections.reverse(Arrays.asList(arrx));
+//System.out.println(Arrays.toString(arrx));
 
 
 
