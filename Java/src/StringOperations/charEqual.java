@@ -20,7 +20,7 @@ public class charEqual {
 		}
 		else
 		{
-			System.out.println("== not working fro string compare");
+			System.out.println("== not working for string compare");
 		}
 		if(s1.equals(s2))
 		{

@@ -3,6 +3,7 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Map;
+import java.util.Map.Entry;
 //WAP to show count of all characters in string
 public class Coun_Of_All_Chars {
 
@@ -71,6 +72,20 @@ public class Coun_Of_All_Chars {
 			}
 		}
 		System.out.println(cntMap);// Printing the charCountMap
+
+// Count of characters with exactly 2 occurances OR print characters that occurs exactly 2 times
+
+		for(Entry<Character, Integer> mpi : cntMap.entrySet())
+		{
+			if(mpi.getValue()==2)
+			{
+				System.out.println("Key: "+mpi.getKey()+" value: "+mpi.getValue());
+			}
+		}
 	}
 }
+
+
+
+
 
