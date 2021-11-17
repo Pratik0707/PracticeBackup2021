@@ -90,27 +90,3 @@ public class PlaceIdVerify {
 
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
