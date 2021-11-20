@@ -27,7 +27,7 @@ public class reverse_strimg {
 //String finalOutput = output1+" "+output2;
 //System.out.println("Reversed string : "+finalOutput);
 
-// Another way : 
+// Another way :  ***** EASY AND SIMPLE  *****
 
 //String[] arrx = {"alpha", "beta", "gamma"};
 //Collections.reverse(Arrays.asList(arrx));

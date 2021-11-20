@@ -1,7 +1,7 @@
 package StringOperations;
 import java.util.HashSet;
-//WAP to find first duplicate character in a string
-public class FirstDuplicateChar {
+//WAP to find FIRST duplicate character in a string
+public class DuplicateChar_first_duplicate {
 
 	public static void main(String[] args) {
 		String str = "pratipkp";

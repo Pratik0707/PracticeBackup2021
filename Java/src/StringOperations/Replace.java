@@ -2,7 +2,7 @@ package StringOperations;
 import java.util.Scanner;
 // WAP to replace characters in string
 
-public class stringReplace {
+public class Replace {
 
 	public static void main(String[] args) {
 		System.out.println("Enter a sentence"); // 1st way

@@ -8,7 +8,7 @@ public class Remove_duplicate_substring {
 
 	public static void main(String[] args) {
 		String str1 = "hello all to java all you all java";
-		//######### WAY 1 #########   
+		//######### WAY 1 #########   // simply add to hashset
 		String []arr = str1.split(" ");
 		HashSet hs = new HashSet();
 		for(int i=0;i<arr.length;i++)

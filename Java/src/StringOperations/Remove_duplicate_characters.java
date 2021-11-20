@@ -7,7 +7,7 @@ public class Remove_duplicate_characters {
 
 	public static void main(String[] args) {
 		String str1 = "HelloAll";
-		//######### WAY 1 #########   
+		//######### WAY 1 ######### // simply add it to hashset   
 		char []arr = str1.toCharArray();
 		HashSet hs = new HashSet();
 		for(int i=0;i<arr.length;i++)
@@ -16,7 +16,7 @@ public class Remove_duplicate_characters {
 		}
 		System.out.println("Word without duplicates : "+hs);
 
-		//######### WAY 2 #########  
+		//######### WAY 2 #########  // add to arraylist and use contains 
 		ArrayList al = new ArrayList();
 		for(int i=0;i<arr.length;i++)
 		{

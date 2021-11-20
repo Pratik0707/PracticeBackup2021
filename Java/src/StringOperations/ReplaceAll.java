@@ -3,7 +3,7 @@ package StringOperations;
 import java.util.Scanner;
 
 //How do you remove all white spaces from a string in java
-public class StringReplaceAll {	
+public class ReplaceAll {	
 	public static void main(String[] args) {
 		System.out.println("Enter a sentence"); // 1st way
 		Scanner sc = new Scanner(System.in);

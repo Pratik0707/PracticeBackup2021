@@ -15,8 +15,11 @@ public class Remove_Character {
 		System.out.println(finalStr);
 
 		// Another way : 
-		char[]a = ss.toCharArray();
-		char b = rpls.charAt(0);
+		String sp = "pratpikp";
+		char b = 'p';// character to be replaced
+		char[]a = sp.toCharArray();
+//		String strToRplc = "p";
+//		char b = strToRplc.charAt(0);// convert character to replace from string to char
 		char[]ar = new char[a.length];
 		for(int i=0;i<a.length;i++)
 		{

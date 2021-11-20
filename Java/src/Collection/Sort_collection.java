@@ -16,10 +16,13 @@ public class Sort_collection {
 		System.out.println("Before Sorting: "+ list);   
 		// >>>> SORT ArrayList    
 		Collections.sort(list);  
-
 		
 		System.out.println("After sort: "+ list);
 
 	}
-
 }
+
+
+
+
+

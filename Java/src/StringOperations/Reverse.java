@@ -2,7 +2,7 @@ package StringOperations;
 import java.util.Scanner;
 //WAP to reverse a string
 
-public class stringReverse {
+public class Reverse {
 
 	public static void main(String[] args) {
 		System.out.println("Enter a string : ");
