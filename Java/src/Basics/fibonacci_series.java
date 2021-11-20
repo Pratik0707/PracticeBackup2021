@@ -1,7 +1,7 @@
 package Basics;
 
-public class fibonacci_series {
-
+public class fibonacci_series 
+{
 	public static void main(String args[])  
 	{    
 		int n1=0,n2=1,n3,i,count=10; 
@@ -17,3 +17,4 @@ public class fibonacci_series {
 		}    
 	}
 }  
+
