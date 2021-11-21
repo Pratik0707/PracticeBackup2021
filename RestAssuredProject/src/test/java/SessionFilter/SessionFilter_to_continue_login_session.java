@@ -1,4 +1,4 @@
-package Examples;
+package SessionFilter;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import static io.restassured.RestAssured.*;
@@ -34,7 +34,8 @@ public class SessionFilter_to_continue_login_session {
 		//		JsonPath js = new JsonPath(StrRes);
 		//		String sessionId = js.get("value");
 
-
+		//		OR > using auth > 
+		//		Given().auth().basic(“username”,”password”).filter(ss).when().get(“URL/end point”).then () .. .. .
 
 		//Add comment in Bug
 		given()
