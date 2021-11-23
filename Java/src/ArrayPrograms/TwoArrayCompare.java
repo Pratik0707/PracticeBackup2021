@@ -1,5 +1,4 @@
 package ArrayPrograms;
-
 import java.util.Arrays;
 
 // WAP to compare 2 different array if both same or different

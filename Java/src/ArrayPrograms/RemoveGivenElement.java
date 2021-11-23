@@ -1,5 +1,4 @@
 package ArrayPrograms;
-
 import java.util.ArrayList;
 // WAP to remove all occurrences of 10 from array
 public class RemoveGivenElement {

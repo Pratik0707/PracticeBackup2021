@@ -1,4 +1,4 @@
-package Basics;
+package Collection;
 import java.util.HashSet;
 import java.util.TreeSet;
 

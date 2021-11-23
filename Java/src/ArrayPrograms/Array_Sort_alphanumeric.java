@@ -24,7 +24,7 @@ public class Array_Sort_alphanumeric {
 			System.out.println(arr[i]);  
 		} 
 		
-		// >>>>>>>>> WAY 2 
+		// >>>> EASY >>>>> WAY 2 
 		String ss2= "25$9$90$$##90";
 		char[]arr2=ss.toCharArray();
 		Arrays.sort(arr2);

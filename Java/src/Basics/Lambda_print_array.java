@@ -20,5 +20,4 @@ public class Lambda_print_array {
 
 		hs.forEach((n)-> {System.out.println(n);});
 	}
-
 }

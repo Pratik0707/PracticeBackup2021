@@ -1,5 +1,9 @@
 package Patterns;
-
+//     *
+//    * *
+//   * * *
+//  * * * *
+// * * * * *
 public class Pyramid_double_stars {
 
 	public static void main(String[] args) {

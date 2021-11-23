@@ -68,7 +68,6 @@ public class SessionFilter_to_continue_login_session {
 		System.out.println(respn);// it will print entire huge JSON response. but I want to see just if my comment is added or not
 		// for that we use query parameter on line#61
 
-
 	}
 
 }

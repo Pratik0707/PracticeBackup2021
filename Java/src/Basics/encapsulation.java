@@ -11,7 +11,6 @@ public class encapsulation {
 		System.out.println(obj.getName());
 
 	}
-
 }
 
 class bank

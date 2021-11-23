@@ -6,13 +6,14 @@ import java.util.Scanner;
 
 public class MaxArrayValue {
 	public static void main(String[] args) {
-		System.out.println("Enter 5 numbers in array : ");
-		Scanner sc = new Scanner(System.in);
-		int []a = new int[4];
-		for(int i=0;i<5;i++)
-		{
-			a[i] =sc.nextInt();
-		}
+//		System.out.println("Enter 5 numbers in array : ");
+//		Scanner sc = new Scanner(System.in);
+//		int []a = new int[4];
+//		for(int i=0;i<5;i++)
+//		{
+//			a[i] =sc.nextInt();
+//		}
+		int []a = {40,99,0,5,1};
 		for(int j=0;j<a.length;j++) // One way : for loop to sort array
 		{
 			for(int k=j+1;k<a.length;k++)
