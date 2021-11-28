@@ -68,7 +68,9 @@ public class HooksDemo1Steps {
 	{
 		System.out.println("Inside after step");
 	}
-
+	
+//	*******  Actual step definition of feature file begins here ******** //
+	
 	@Given("user at login page")
 	public void user_at_login_page() {	    
 	}
